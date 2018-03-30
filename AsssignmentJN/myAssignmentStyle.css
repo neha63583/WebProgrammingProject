@@ -1,0 +1,95 @@
+/*My Assignment Style.css*/
+          *{
+               margin: 0;
+                   padding: 0;
+                }
+
+        body{
+                      width: 90%;
+                          background-color: white;
+                          margin: 15px auto;
+                          border: none;
+						  
+                        }
+		img{
+			
+			border-style: solid;
+			border-color: black;
+			border-width: 2px;
+			margin-left:  50px;
+			
+		}
+		h3{
+			
+			margin-left: 63%;
+			
+			
+		}
+		a {
+			
+			margin-left: 5px;
+			
+		}
+		
+		p  {
+			
+			margin-left: 70px;
+			
+			
+		}
+
+                h1{
+                    padding: 10px;
+                        color: black;
+                  }
+
+                h1::first-letter{
+                                  font-size: 200%;
+                                            }
+
+        header{
+
+                                 background-color: lightgrey;
+								 border-style: inset;
+								 margin-bottom: 30px;
+                          }
+
+        section{
+                          min-height: 400px;
+                                  width: 33%;
+                                  float: left;
+                                  float: left;
+                                  background-color: white;
+                           }
+
+        aside{
+                        width: 66%;
+                                min-height: 400px;
+                                float: right;
+                                background-color: white;
+                         }
+
+                footer{
+                         clear: both;
+                                 background-color: white;
+                          }
+						  
+						  
+						  
+						  
+						  
+						  
+		li 
+		{		
+		
+		
+		margin-left: 25px;
+		list-style: none;
+		}
+		
+	    div 
+		{
+			
+			line-height: 200%;
+
+		}

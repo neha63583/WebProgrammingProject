@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+   <title>Assignment 1</title>
+   <meta charset="utf-8">
+   <meta name="description" content="This web page is to complete assignment 1">
+   <meta name="keywords" content=" paragraph, CSSstyle, Lenovo phab2, purchase, info, specifications, form ">
+   <meta name="author" content="Justin Frasca, Neha Arora">
+   <link rel="stylesheet" type="text/css" href="myAssignmentStyle.css"/>
+   <link href="SprayTabbedPanels.css" rel="stylesheet" type="text/css" />
+   <script language="JavaScript" type="text/javascript" src="SprayTabbedPanels.js"></script>
+</head>
+
+<body>
+  <header>
+    <!--Group Number : 28
+	    Group Members:
+		Justin Frasca - 101020604
+		Neha Arora    - 101043939-->
+    <h1>Dell Xps 13</h1>
+  </header>
+  
+  <section>
+    <!--Photo and video in section-->
+	<!-- And Link to purchase the phone from Google play store-->
+    <img src="images/xps13.jpg" alt="panda" height="500" width="300" >
+ 	<p>Buy it at 
+	  <a href="">Google Play Store</a>
+	</p>
+  </section>
+  
+  <aside>
+    <!--3 tabs in aside-->
+    <div class="TabbedPanels" id="tp1">
+		<ul class="TabbedPanelsTabGroup">
+			<li class="TabbedPanelsTab" tabindex="0">Intro</li>
+			<li class="TabbedPanelsTab" tabindex="0">Specifications</li>
+			<li class="TabbedPanelsTab" tabindex="0">Registration Form</li>
+		</ul>
+		
+		<div class="TabbedPanelsContentGroup">
+			<div class="TabbedPanelsContent">
+	
+	    <br>
+	    <h1>Dell Xps 13</h1>
+		<br>
+		 &nbsp;The smallest 13-inch on the planet with the world’s first InfinityEdge display
+		More screen, less to carry: The virtually borderless InfinityEdge display maximizes screen space by squeezing a 13-inch display in an 11-inch frame. 
+		With a bezel only 5.2 mm thin, weighing in at only 2.7 pounds and measuring a super slim 9-15 mm, 
+		the XPS 13 is exceptionally thin and light.
+		<br><br>
+		<h2>Stunning, state-of-the-art display</h2>
+		<br>
+		 &nbsp;Stunning UltraSharp™ QHD+ resolution (3200x1800): An optional upgrade gives you eye-popping detail with 5.7 million pixels (276 ppi). 
+		Easy to share: See content clearly from nearly every angle with the IGZO IPS panel, providing a wide viewing angle of up to 170°. 
+		Brighten your day: 400 nit brightness is brighter than a typical laptop panel, so you get a great view, even outside.
+		Gorgeous colors: See the brightest bright and the darkest darks with a color gamut of 72% and a contrast ratio of 1000:1. 
+		Touch friendly: Tap, swipe and pinch your way around the screen. The optional touch display lets you interact naturally with your technology.
+        <br><br>
+
+			</div>
+			
+			<div class="TabbedPanelsContent">
+			
+			<h1>Specifications</h1>
+				<ul>
+				<li><br><b>ASSERTIVE DISPLAY</b></li>
+				<li>13.3” FHD AG (1920 x 1080) InfinityEdge display</li>
+				</ul>
+			
+				<ul>
+				<li><br><b>OPERATING SYSTEM</b></li>
+				<li>Windows 10 Home 64-bit English</li>
+			
+				</ul>
+			
+			
+				<ul>
+				<li><br><b>Hard Drive</b></li>
+				<li>256GB PCIe Solid State Drive</li>
+			
+				</ul>
+			
+				<ul>
+				<li><br><b>MEMORY</b></li>
+				<li>8GB LPDDR3-1866MHz</li>
+				</ul>
+			
+				<ul>
+				<li><br><b>PROCESSOR</b></li>
+				<li>6th Generation Intel® Core™ i5-6200U Processor (3M Cache, up to 2.80 GHz)</li>
+				</ul>
+			
+				<ul>
+				<li><br><b>BATTERY LIFE</b></li>
+				
+				<li>Up to 18 hours of battery life<br><br></li>
+				</ul>	
+			</div>
+			
+			<div class="TabbedPanelsContent">
+			
+			   <form name="myform" id="form" onsubmit="return validateForm()" method="post">
+				 
+				<br/><br/>
+				<label>First Name:</label>
+				<input type="text" name="fname" width="20" />
+				<br/><br/>
+
+				<label>Last Name:</label>
+				<input type="text" name="lname" width="20" />
+				<br/><br/>
+				
+				<label>Address:</label>
+				<input type="text" name="address" width="20"/>
+				<br/><br/>
+
+				<label>City:</label>
+				<input type="text" name="city" width="20"/>
+				<br/><br/>
+
+				<label>Postal Code:</label>
+				<input type="text" name="postalcode" width="20"/>
+				<br/><br/>
+				
+				<label>Province:</label>
+				<select name="province">
+					<option value="">-----------------Select----------------</option>
+					<option value="Alberta">Alberta</option>
+					<option value="British Columbia">British Columbia</option>
+					<option value="Manitoba">Manitoba</option>
+					<option value="New Brunswick">New Brunswick</option>
+					<option value="Newfoundland and And Labrador">Newfoundland and Labrador</option>
+					<option value="Nova Scotia">Nova Scotia</option>
+					<option value="NorthWest Territories">NorthWest Territories</option>				
+					<option value="Nunavut">Nunavut</option>
+					<option value="Ontario">Ontario</option>
+					<option value="Prince Edward Island">Prince Edward Island</option>
+					<option value="Quebec">Quebec</option>
+					<option value="Saskatchewan">Saskatchewan</option>
+					<option value="Yukon">Yukon</option>	
+				</select>
+				<br/><br/>
+				
+				<label>Age:</label>
+				<input type="text" name="age" width="20"/>
+				<br/><br/>
+
+				<label>Password:</label>
+				<input type="password" name="password" width="20"/>
+				<br/><br/>
+				
+				<label>Password Confirm:</label>
+				<input type="password" name="passwordConfirm" width="20"/>
+				<br/><br/>
+
+				<label>Email:</label>
+				<input type="text" name="email" width="20"/>
+				<br/><br />	
+				
+				<input type="submit" value="Register now!"/>
+				<input type="reset" value = "Clear Form" />
+
+			</div>	
+		</div>
+    </div>
+		<script language="JavaScript" type="text/javascript">
+		var tp1 = new Spry.Widget.TabbedPanels("tp1", { defaultTab: 0 });
+        
+		function validateForm()
+		  {
+			//validating province
+			  if(form.province.value=='') 
+			    {
+				  alert(" Please select your Province");
+				  form.province.focus();
+                  return false;				  
+				}
+
+			//validating postal code
+			  if(form.postalcode.value=='')
+			    {
+			      alert(" Please enter your postal code.");
+			   	  form.postalcode.focus();
+				  return false;
+				}
+	          else
+			    {
+				 var regPostalCode =new RegExp(/^[ABCEGHJKLMNPRSTVXY]\d[ABCEGHJKLMNPRSTVWXYZ]( )?\d[ABCEGHJKLMNPRSTVWXYZ]\d$/i);
+                 if(regPostalCode.test(form.postalcode.value) == false)
+                  {
+                    alert(" Entered Postal Code " + form.postalcode.value + " is incorrect. \n Please enter it again" );
+                    return false;
+                  }
+				}
+						    
+			//validating email
+              if(form.email.value=='') 
+			    {
+                  alert(" Please enter your email");
+                  form.email.focus();
+                  return false;
+                }
+			  else 
+			    {
+				  var email = form.email.value;
+				  var posOfAt = email.indexOf("@");
+				  var posOfDot = email.indexOf(".");
+				  if (posOfAt > posOfDot || posOfAt < 1 || posOfDot < posOfAt + 2 || posOfDot+2 > email.length)
+				    {
+					  alert(" Entered email " + form.email.value + " is invalid! \n Please enter it again.")
+					  form.email.focus();
+			          return false;
+					}
+				}
+
+		    //validating password
+			  if(form.password.value=='') 
+			    {
+					 alert(" Please enter your password");
+					 form.password.focus();
+				     return false;
+			    }
+			  
+	          if(form.passwordConfirm.value=='') 
+			    {
+					alert(" Please confirm password!");
+					form.passwordConfirm.focus();
+					return false;
+				}
+				
+			  if(form.passwordConfirm.value != form.password.value) 
+				{
+				   alert(" Passwords did not match!!!! \n Please verify them again!");
+				   form.passwordConfirm.focus();
+				   return false;
+				 }
+			//validating age
+			  if(form.age.value == "")
+			    {
+				  alert(" Please enter your age.");
+				  form.age.focus();
+				  return false;
+				}
+			  else if (isNaN(form.age.value))
+                {
+				  alert(" Entered age: " + form.age.value + " is invalid!  \n Please enter a number for age!");
+			      form.age.focus();
+			      return false;
+				}
+              else if (parseInt(form.age.value) <= 0)
+                {
+				  alert(" Entered age: " + form.age.value + " is invalid!  \n Please enter a valid age!");
+			      form.age.focus();
+			      return false;
+				}						
+			
+            //Display output in alert box
+             
+	         var display = "The following data has been entered by the user: \n\n" +
+	                       " First Name   : " + form.fname.value      +
+				           "\n Last Name   : " + form.lname.value      +
+				           "\n Address       : " + form.address.value    +
+				           "\n City              : " + form.city.value       +
+				           "\n Postal Code : " + form.postalcode.value +
+				           "\n Province      : " + form.province.value   +
+				           "\n Age              : " + form.age.value        +
+				           "\n Password     : " + form.password.value   +
+				           "\n Email            : " + form.email.value;
+	         alert(display);
+	         return false;
+			
+	  }
+		</script>
+  </aside>
+  
+  <footer>
+    <!-- copy right in footer-->
+	<h3>&copy; Justin Frasca, Neha Arora. All Rights Reserved</h3>    
+    <br/><br />
+  </footer> 
+  
+<script src="http://my.gblearn.com/js/loadscript.js"></script>
+</body>
+</html>
+ 
